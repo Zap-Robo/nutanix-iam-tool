@@ -1,0 +1,13 @@
+# Exported XML files (may contain identity UUIDs — keep out of source control
+# unless this repo IS your IAM backup store)
+*.xml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Credentials
+.env
